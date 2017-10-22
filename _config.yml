@@ -1,22 +1,19 @@
 
-title: My Resume
-url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
+title: My Portfolio Website
+baseurl: '/'
 
 
 
 # Profile information
-yourname: Brown Smith  ## put your name
-title: 'GRAPHIC &amp; WEB DESIGNER'  ## your title
-location: San Francisco , CA
+yourname: Andrei Rusu
+title: 'Technology Analyst Intern'
+location: London , UK
 
 
 ## Social Profiles
-facebook: http://www.facebook.com  ## your facebook account url
-twitter: http://www.twitter.com  ## your twitter account url
-linkedin: http://www.linkedin.com  ## your linkedin account url
-dribbble: http://www.dribble.com  ## you dribbble account url
-foursquare: http://www.foursquare.com  ## your foursquare account url
+facebook: https://www.facebook.com/rusu.c.andrei  ## your facebook account url
+linkedin: https://www.linkedin.com/in/andrei-rusu-5a0a89106/  ## your linkedin account url
+github: https://github.com/andrei-rusu
 
 
 
