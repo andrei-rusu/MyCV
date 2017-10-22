@@ -1,20 +1,19 @@
 
+# Site information
 title: My Portfolio Website
 baseurl: '/'
 
 
-
 # Profile information
 yourname: Andrei Rusu
-title: 'Technology Analyst Intern'
+job-title: 'Technology Analyst Intern'
 location: London , UK
 
 
 ## Social Profiles
-facebook: https://www.facebook.com/rusu.c.andrei  ## your facebook account url
-linkedin: https://www.linkedin.com/in/andrei-rusu-5a0a89106/  ## your linkedin account url
+facebook: https://www.facebook.com/rusu.c.andrei
+linkedin: https://www.linkedin.com/in/andrei-rusu-5a0a89106/ 
 github: https://github.com/andrei-rusu
+twitter: https://twitter.com/andrei__rusu
+google-plus: https://plus.google.com/107403507154834161705
 
-
-
-# Update all the sections by editing the files inside _includes folder.

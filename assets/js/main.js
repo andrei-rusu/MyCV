@@ -154,18 +154,21 @@ jQuery(document).ready(function($) {
         initialize();
     });
 
+	
     /* ---------------------------------------------------------------------- */
     /* -------------------------- Contact Form ------------------------------ */
     /* ---------------------------------------------------------------------- */
 
+	/*
     // Needed variables
     var $contactform = $('#contactform'),
             $success = ' Your message has been sent. Thank you!';
 
+	
     $contactform.submit(function() {
         $.ajax({
             type: "POST",
-            url: "php/contact.php",
+            url: "php/contact.php,
             data: $(this).serialize(),
             success: function(msg)
             {
@@ -230,6 +233,7 @@ jQuery(document).ready(function($) {
         });
         return false;
     });
+	*/
 
     /* ---------------------------------------------------------------------- */
     /* ----------------------------- Portfolio ------------------------------ */
@@ -294,18 +298,18 @@ jQuery(document).ready(function($) {
     function initialize() {
         map = new GMaps({
             div: '#map',
-            lat: -37.817917,
-            lng: 144.965065,
+            lat: 51.503665,
+            lng: -0.02004,
             zoom: 16
 
         });
         map.addMarker({
-            lat: -37.81792,
-            lng: 144.96506,
-            title: 'Marker with InfoWindow',
+            lat: 51.503665,
+            lng: -0.02004,
+            title: 'My Location (Roughly)',
             icon: 'images/pins-map/map-marker.png',
             infoWindow: {
-                content: '<p>Melbourne Victoria, 300, Australia</p>'
+                content: '<p>London, United Kingdom</p>'
             }
         });
     }

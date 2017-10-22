@@ -44,16 +44,16 @@ layout: default
 		 
                                 
          <div class="image-holder one" id="pic_prof_1" style="display:block">
-        
-                <img class="head-image up circle" src="images/img/up.png" width="150" height="150" alt="" />
-                <img class="head-image up-left circle" src="images/img/upleft.png" width="150" height="150" alt="" />
-                <img class="head-image left circle" src="images/img/left.png" width="150" height="150" alt="" />
-                <img class="head-image down-left circle" src="images/img/downleft.png" width="150" height="150" alt="" />
-                <img class="head-image down circle" src="images/img/down.png" width="150" height="150" alt="" />
-                <img class="head-image down-right circle" src="images/img/downright.png" width="150" height="150" alt="" />
-                <img class="head-image right circle" src="images/img/right.png" width="150" height="150" alt="" />
-                <img class="head-image up-right circle" src="images/img/upright.png" width="150" height="150" alt="" />
-                <img class="head-image front circle" src="images/img/front.png" width="150" height="150" alt="" />
+				
+                <img class="head-image up circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image up-left circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image left circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image down-left circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image down circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image down-right circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image right circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image up-right circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
+                <img class="head-image front circle" src="images/img/CVphoto.jpg" width="150" height="150" alt="" />
                 
         </div>
         
@@ -69,7 +69,7 @@ layout: default
         <!-- Profile info -->
         <div id="profile_info">
             <h1 id="name" class="transition-02">{{ site.yourname }}</h1>
-            <h4 class="line">{{ site.title }}</h4>
+            <h4 class="line">{{ site.job-title }}</h4>
             <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6>
         </div>
         <!-- End Profile info -->  
@@ -89,11 +89,12 @@ layout: default
          <div id="profile_social">
             <h6>My Social Profiles</h6>
 			
+			<a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+			<a href="{{site.github}}"><i class="fa fa fa-github"></i></a>
             <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
             <a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
-            <a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
-            <a href="{{site.github}}"><i class="fa fa fa-github"></i></a>
-
+			<a href="{{site.google-plus}}"><i class="fa fa-google-plus"></i></a>
+			
             <div class="clear"></div>
         </div>
         <!-- End Name -->  
@@ -128,23 +129,23 @@ layout: default
             <i class="fa fa-tasks icon_menu"></i>
         </li>
 
-        <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
+        <!--<li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
             <span class="tite-list">portfolio</span>
             <i class="fa fa-briefcase icon_menu"></i>
-        </li>
+        </li>-->
 
-        <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
+        <!--<li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
             <span class="tite-list">blog</span>
             <i class="fa fa-bullhorn icon_menu"></i>
-        </li>
+        </li>-->
 
         <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
             <span class="tite-list">contact</span>
             <i class="fa fa-envelope icon_menu"></i> 
         </li>
 
-        <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
-        <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+        <a href="https://www.dropbox.com/s/dmml7mewiibxs0j/CV%20Andrei%20Rusu.pdf?raw=1" target="_blank" id="print"><i class="fa fa-print icon_print"></i> </a>
+        <a href="https://www.dropbox.com/s/dmml7mewiibxs0j/CV%20Andrei%20Rusu.pdf?dl=1" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
     </ul>
     <!-- /resp-tabs-list -->
 
@@ -158,10 +159,10 @@ layout: default
 {% include /cv.html %}
 
 
-{% include /portfolio.html %}
+<!--{ % include /portfolio.html % } -->
 
 
-{% include /blog.html %}
+<!--{ % include /blog.html % } -->
 
 {% include /contact.html %}
 
