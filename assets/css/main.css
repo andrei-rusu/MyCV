@@ -1101,7 +1101,9 @@ ul.about {
         margin-bottom: 20px;
         float: none;
     }
-    #profile_social {
+    
+	// Dirty fix
+	.col-lg-12 > #profile_social {
         display: none;
     }
     #profile_desc {
@@ -1115,7 +1117,8 @@ ul.about {
         margin-bottom: 20px;
         float: none;
     }
-    #profile_social {
+	
+    .col-lg-12 > #profile_social {
         display: none;
     }
     #profile_desc {
@@ -1138,7 +1141,7 @@ ul.about {
         margin-bottom: 20px;
         float: none;
     }
-    #profile_social {
+    .col-lg-12 > #profile_social {
         display: none;
     }
 }
@@ -1158,7 +1161,7 @@ ul.about {
         float: none;
     }
 
-    #profile_social {
+    .col-lg-12 > #profile_social {
         display: none;
     }
     #profile_desc {
