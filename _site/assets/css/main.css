@@ -828,7 +828,7 @@ ul.about li:last-child {
     border-bottom: none;
 }
 ul.about {
-    margin-bottom: 30px;
+    margin-bottom: 17px;
 }
 
 #profile .bottom-p  {
@@ -966,9 +966,7 @@ ul.about {
     -webkit-border-radius: 99em;
     -moz-border-radius: 99em;
     border-radius: 99em;
-    background-image: url('../images/img/front.png');
-    margin-top: 25px;
-    margin-bottom: 7px;
+    background-image: url('../images/img/CVphoto.png');
 }
 
 .widget-profil  h1 {
@@ -1009,7 +1007,7 @@ ul.about {
 
 .widget-profil #profile_social
 {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 #profile_social a{

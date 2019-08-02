@@ -1,16 +1,17 @@
 
 # Site information
-title: My Portfolio Website
+title: MyCV - Andrei Rusu
 baseurl: '/'
 
 
 # Profile information
 yourname: Andrei Rusu
-job-title: 'Technology Analyst Intern'
-location: London , UK
+job-title: 'PhD in Computer Science'
+location: Building 32, University Rd, Southampton SO17 1TR, UK
 
 
 ## Social Profiles
+email: rusu.c.andrei@gmail.com
 facebook: https://www.facebook.com/rusu.c.andrei
 linkedin: https://www.linkedin.com/in/andrei-rusu-5a0a89106/ 
 github: https://github.com/andrei-rusu

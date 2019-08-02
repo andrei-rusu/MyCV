@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
     /* ------------------------- Effect tabs -------------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    var animation_style = 'bounceIn';
+    var animation_style = 'fadeInUp';
 
     $('.dropdown-select').change(function() {
         animation_style = $('.dropdown-select').val();
@@ -143,7 +143,6 @@ jQuery(document).ready(function($) {
             });
 
         }
-
     }
 
     // On lie l'événement resize à la fonction
@@ -298,15 +297,15 @@ jQuery(document).ready(function($) {
     function initialize() {
         map = new GMaps({
             div: '#map',
-            lat: 51.503665,
-            lng: -0.02004,
-            zoom: 16
+            lat: 50.9364155,
+            lng: -1.3959331,
+            zoom: 14
 
         });
         map.addMarker({
-            lat: 51.503665,
-            lng: -0.02004,
-            title: 'My Location (Roughly)',
+            lat: 50.9364155,
+            lng: -1.3959331,
+            title: 'My Workplace',
             icon: 'images/pins-map/map-marker.png',
             infoWindow: {
                 content: '<p>London, United Kingdom</p>'
@@ -464,7 +463,4 @@ jQuery(document).ready(function($) {
 		
         return false;
     });
-
-
-
 });
