@@ -306,7 +306,7 @@ jQuery(document).ready(function($) {
             lat: 50.9364155,
             lng: -1.3959331,
             title: 'My Workplace',
-            icon: 'images/pins-map/map-marker.png',
+            icon: 'assets/images/pins-map/map-marker.png',
             infoWindow: {
                 content: '<p>London, United Kingdom</p>'
             }
