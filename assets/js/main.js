@@ -149,10 +149,6 @@ jQuery(document).ready(function($) {
     window.addEventListener('load', redimensionnement, false);
     window.addEventListener('resize', redimensionnement, false);
 
-    $("#verticalTab h2.resp-accordion").click(function() {
-        initialize();
-    });
-
 	
     /* ---------------------------------------------------------------------- */
     /* -------------------------- Contact Form ------------------------------ */
@@ -308,7 +304,7 @@ jQuery(document).ready(function($) {
             title: 'My Workplace',
             icon: 'assets/images/pins-map/map-marker.png',
             infoWindow: {
-                content: '<p>London, United Kingdom</p>'
+                content: '<p>Southampton, United Kingdom</p>'
             }
         });
     }
