@@ -156,6 +156,7 @@ jQuery(document).ready(function($) {
         }
     }
 
+    // On lie l'événement resize à la fonction
     window.addEventListener('load', redimensionnement, false);
     window.addEventListener('resize', redimensionnement, false);
 

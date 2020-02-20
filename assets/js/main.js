@@ -121,27 +121,38 @@ jQuery(document).ready(function($) {
     /* ---------------------- redimensionnement ----------------------------- */
     /* ---------------------------------------------------------------------- */
 
+    old_h = $(".content_2").height();
+    old_w = $(".content_2").width();
+
     function redimensionnement() {
 
-        if (window.matchMedia("(max-width: 800px)").matches) {
-            $(".content_2").mCustomScrollbar("destroy");
-            $(".resp-vtabs .resp-tabs-container").css("height", "100%");
-            $(".content_2").css("height", "100%");
-        } else {
+        new_h = $(".content_2").height()
+        new_w = $(".content_2").width()
 
-            $(".resp-vtabs .resp-tabs-container").css("height", "580px");
-            $(".content_2").css("height", "580px");
-            $(".content_2").mCustomScrollbar("destroy");
-            $(".content_2").mCustomScrollbar({
-                theme: "dark-2",
-                contentTouchScroll: true,
-                advanced: {
-                    updateOnContentResize: true,
-                    updateOnBrowserResize: true,
-                    autoScrollOnFocus: false
-                }
-            });
+        // This check is needed because the Google Maps API block triggers continuous resize events on Opera
+        if (new_h != old_h && new_w != old_w) {
 
+            old_h = new_h
+            old_w = new_w
+
+            if (window.matchMedia("(max-width: 800px)").matches) {
+                $(".content_2").mCustomScrollbar("destroy");
+                $(".resp-vtabs .resp-tabs-container").css("height", "100%");
+                $(".content_2").css("height", "100%");
+            } else {
+                $(".resp-vtabs .resp-tabs-container").css("height", "580px");
+                $(".content_2").css("height", "580px");
+                $(".content_2").mCustomScrollbar("destroy");
+                $(".content_2").mCustomScrollbar({
+                    theme: "dark-2",
+                    contentTouchScroll: true,
+                    advanced: {
+                        updateOnContentResize: true,
+                        updateOnBrowserResize: true,
+                        autoScrollOnFocus: false
+                    }
+                });
+            }
         }
     }
 
